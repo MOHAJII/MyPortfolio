@@ -38,12 +38,19 @@ export default function DefaultPage() {
           ))}
         </div>
         <div className="mt-auto pt-4 border-t flex justify-between items-center">
-          <a
-            href={project.link}
-            className="text-primary hover:underline text-sm font-medium"
-          >
-            View Project
-          </a>
+          <div className="flex items-center gap-2">
+            <a
+              href={project.link}
+              className="text-primary hover:underline text-sm font-medium"
+            >
+              View Project
+            </a>
+            {project.try && (
+              <span className="ml-2 px-2 py-0.5 rounded-full bg-green-100 text-green-700 text-xs font-semibold shadow-sm animate-pulse group-hover:animate-none transition-all duration-200">
+                Try the App
+              </span>
+            )}
+          </div>
           <span className="text-xs text-muted-foreground">{project.year}</span>
         </div>
       </div>

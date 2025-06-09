@@ -72,6 +72,15 @@ export const PROJECTS: Project[] = [
     year: "2025",
   },
   {
+    "id": 9,
+    "title": "Flutter Chat Bot",
+    "description": "A mobile chatbot app built with Flutter and Hugging Face models. Features include a static login page, chat interface with error handling, conversation history, clear chat, and logout buttons.",
+    "image": "/images/projects/chat-bot2.jpg",
+    "tags": ["Flutter", "Hugging Face", "Chatbot", "Mobile", "Dart"],
+    "link": "https://github.com/MOHAJII/Flutter_chatbot_app",
+    "year": "2025"
+  },
+  {
     id: 7,
     title: 'IMC Calculator',
     description:
@@ -81,6 +90,7 @@ export const PROJECTS: Project[] = [
     link: 'https://github.com/MOHAJII/IMC-Calculator-Android',
     year: "2025",
   },
+  
 ];
 
 
