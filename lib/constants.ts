@@ -10,6 +10,7 @@ export const PROJECTS: Project[] = [
     tags: ['Java', 'JavaFX', 'MongoDB', 'Redis', 'MVC', 'DAO'],
     link: 'https://github.com/MOHAJII/Inventory-Management-System-with-Blockchain-Integration',
     year: "2025",
+    try: null,
   },
   {
     id: 2,
@@ -20,6 +21,7 @@ export const PROJECTS: Project[] = [
     tags: ['Python', 'Mobile', 'HuggingFace', 'IoT'],
     link: 'https://github.com/yourusername/blind-assistance',
     year: "2025",
+    try: null,
   },
   {
     id: 8,
@@ -30,16 +32,18 @@ export const PROJECTS: Project[] = [
     tags: ['React', 'Vite', 'HTML5', 'CSS3', 'JavaScript', 'UI/UX'],
     link: 'https://github.com/MOHAJII/Real-Estate-website',
     year: "2025",
+    try: 'https://real-estate-website-liard-tau.vercel.app/',
   },
   {
     id: 3,
     title: 'Edutris',
     description:
       'Edutris is a culture-enriched, Tetris-inspired command-line game built in C++ that combines Moroccan heritage and logic-based gameplay. Players choose a Moroccan city, answer a trivia question, and assemble answers via falling letters in a Tetris style.',
-    image: '/images/projects/edutris.png',
+    image: '/images/projects/edutris.jpg',
     tags: ['C++', 'CLI', 'Game', 'Culture', 'Education'],
     link: 'https://github.com/MOHAJII/vision-assist-ai',
     year: "2024",
+    try: null,
   },
   {
     id: 4,
@@ -50,6 +54,7 @@ export const PROJECTS: Project[] = [
     tags: ['C', 'Sorting Algorithms', 'Plotlib', 'CLI'],
     link: 'https://github.com/MOHAJII/Sorting-time-complexity-comparison',
     year: "2025",
+    try: null,
   },
   {
     id: 5,
@@ -60,6 +65,7 @@ export const PROJECTS: Project[] = [
     tags: ['HTML', 'CSS', 'JavaScript', 'DOM', 'Git'],
     link: 'https://github.com/MOHAJII/age-calculator-web-site',
     year: "2024",
+    try: 'https://age-calculator-web-site.vercel.app/',
   },
   {
     id: 6,
@@ -70,15 +76,17 @@ export const PROJECTS: Project[] = [
     tags: ['Flutter', 'HuggingFace', 'Mobile', 'AI'],
     link: 'https://github.com/MOHAJII/Flutter_chatbot_app',
     year: "2025",
+    try: null,
   },
   {
-    "id": 9,
-    "title": "Flutter Chat Bot",
-    "description": "A mobile chatbot app built with Flutter and Hugging Face models. Features include a static login page, chat interface with error handling, conversation history, clear chat, and logout buttons.",
-    "image": "/images/projects/chat-bot2.jpg",
-    "tags": ["Flutter", "Hugging Face", "Chatbot", "Mobile", "Dart"],
-    "link": "https://github.com/MOHAJII/Flutter_chatbot_app",
-    "year": "2025"
+    id: 9,
+    title: "Flutter Chat Bot",
+    description: "A mobile chatbot app built with Flutter and Hugging Face models. Features include a static login page, chat interface with error handling, conversation history, clear chat, and logout buttons.",
+    image: "/images/projects/chat-bot2.jpg",
+    tags: ["Flutter", "Hugging Face", "Chatbot", "Mobile", "Dart"],
+    link: "https://github.com/MOHAJII/Flutter_chatbot_app",
+    year: "2025",
+    try: null,
   },
   {
     id: 7,
@@ -89,9 +97,10 @@ export const PROJECTS: Project[] = [
     tags: ['Java', 'Android', 'XML', 'BMI', 'Mobile', 'Git'],
     link: 'https://github.com/MOHAJII/IMC-Calculator-Android',
     year: "2025",
+    try: null,
   },
-  
 ];
+
 
 
 export const EXPERIENCES: Experience[] = [

@@ -46,9 +46,15 @@ export default function DefaultPage() {
               View Project
             </a>
             {project.try && (
-              <span className="ml-2 px-2 py-0.5 rounded-full bg-green-100 text-green-700 text-xs font-semibold shadow-sm animate-pulse group-hover:animate-none transition-all duration-200">
+              <a
+                href={project.try}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="ml-1 px-2 py-0.5 rounded-full bg-green-100 text-green-700 text-xs font-semibold shadow-sm transition-all duration-200 hover:bg-green-200 hover:scale-105 cursor-pointer inline-block"
+                style={{ minWidth: '70px', textAlign: 'center' }}
+              >
                 Try the App
-              </span>
+              </a>
             )}
           </div>
           <span className="text-xs text-muted-foreground">{project.year}</span>

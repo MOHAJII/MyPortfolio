@@ -8,6 +8,7 @@ export interface Project {
   tags: string[];
   link: string;
   year?: string;
+  try: any;
 }
 
 export interface Experience {
